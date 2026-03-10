@@ -15,11 +15,32 @@
 </head>
 
 <body>
+    <!--Menu de navegação e suas respectivas listas/ordem-->
+    <nav class="navegacao">
+        <ul class="lista">
+            <li>
+                <a href="#inicio" class="links">Início</a>
+            </li>
+            <li>
+                <a href="#sobre-clinica" class="links">Sobre a Clínica</a>
+            </li>
+            <li>
+                <a href="#nossos-servicos" class="links">Nossos Serviços</a>
+            </li>
+            <li>
+                <a href="#nossos-profissionais" class="links">Nossos Profissionais</a>
+            </li>
+            <li>
+                <a href="#marque-consulta" class="links">Marque sua Consulta!</a>
+            </li>
+        </ul>
+    </nav>
+
     <main id='inicio' class='principal'>
         <div class="caixa-imagem-clinica">
             <img src="img/imagem-clinica.png" class="imagem-clinica" alt="Imagem da Clinica">
         </div>
-        <h2 class="sobre-clinica">Sobre a Clínica</h2>
+        <h2 class="sobre-clinica" id="sobre-clinica">Sobre a Clínica</h2>
         <div class="caixa-descricao">
             <p class="descricao-clinica">A Clínica da Super Felicidade é um espaço dedicado ao cuidado com a saúde,
                 bem-estar e autoestima. Oferecemos tratamentos modernos e seguros nas áreas de dermatologia,
@@ -29,7 +50,7 @@
         </div>
     </main>
     <!-- Seção dos SERVIÇOS da CLINICA -->
-    <section class="clinica-servico">
+    <section class="clinica-servico" id="nossos-servicos">
 
         <div class="wrapper-card">
 
@@ -101,7 +122,7 @@
     </section>
 
     <!-- Seção dos Profissionais da Clinica -->
-    <section class="clinica-profissionais">
+    <section class="clinica-profissionais" id="nossos-profissionais">
 
         <h2 class="titulo-texto">Nossos Profissionais</h2>
 
@@ -145,7 +166,7 @@
     </section>
 
     <!-- Seção do Formulário-->
-    <section class="formulario">
+    <section class="formulario" id="marque-consulta">
         <!-- Nome, Email , Cidade, Estado-->
         <div class="formulario-caixa">
             <h2>Marque sua Consulta!</h2>
