@@ -4,31 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
     <title>Clinica da Super Felicidade</title>
 </head>
 
 <body>
     <main id='inicio' class='principal'>
-        <img src="img/imagem-clinica.png" class="imagem-clinica" alt="Imagem da Clinica">
+        <div class="caixa-imagem-clinica">
+            <img src="img/imagem-clinica.png" class="imagem-clinica" alt="Imagem da Clinica">
+        </div>
         <h2 class="sobre-clinica">Sobre a Clínica</h2>
         <div class="caixa-descricao">
             <p class="descricao-clinica">A Clínica da Super Felicidade é um espaço dedicado ao cuidado com a saúde,
-                bem-estar e autoestima de seus
-                pacientes. Nossa missão é oferecer tratamentos modernos e seguros, proporcionando resultados que
-                valorizam a
-                beleza natural e melhoram a qualidade de vida das pessoas.
-
-                Contamos com uma equipe de profissionais qualificados nas áreas de dermatologia, cirurgia plástica e
-                estética,
-                que trabalham com responsabilidade, ética e atenção individualizada para cada paciente. Na Clínica da
-                Super
-                Felicidade, cada atendimento é realizado com foco nas necessidades e objetivos de quem nos procura.
-
-                Além disso, utilizamos tecnologias atualizadas e produtos de alta qualidade para garantir procedimentos
-                eficazes
-                e confortáveis. Nosso compromisso é oferecer um ambiente acolhedor, seguro e profissional, onde cada
-                paciente
-                possa se sentir bem cuidado e confiante em sua jornada de transformação e bem-estar.</p>
+                bem-estar e autoestima. Oferecemos tratamentos modernos e seguros nas áreas de dermatologia,
+                cirurgia plástica e estética, sempre com profissionais qualificados e atendimento personalizado.
+                Nosso objetivo é proporcionar resultados naturais em um ambiente acolhedor, seguro e profissional.
+            </p>
         </div>
     </main>
     <!-- Seção dos SERVIÇOS da CLINICA-->
@@ -107,6 +104,7 @@
     <section class="formulario">
         <!-- Nome, Email , Cidade, Estado-->
         <div class="formulario-caixa">
+            <h2>Marque sua Consulta!</h2>
             <form>
                 <label for="nome">Nome:</label>
                 <input type="text" id="nome" name="nome" required>
