@@ -93,6 +93,7 @@ html {
     background: white;
 
     transition: transform 0.4s ease, box-shadow 0.4s ease;
+
 }
 
 
@@ -121,5 +122,54 @@ html {
     font-size: 14px;
     padding: 0 20px 20px 20px;
     text-align: center;
+    line-height: 1.6;
+}
+
+.clinica-profissionais {
+    padding: 80px 20px;
+}
+
+
+.grid-profissionais {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+
+.caixa-profissional {
+    background: white;
+    border-radius: 16px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+}
+
+.caixa-profissional:hover {
+    transform: translateY(-8px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+
+.imagem-profissional {
+    width: 300px;
+    height: 600px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+
+.caixa-profissional h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.caixa-profissional p {
+    font-size: 14px;
     line-height: 1.6;
 }
