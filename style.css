@@ -180,7 +180,7 @@ html {
 
 .imagem-servico {
     width: 100%;
-    height: 200px;
+    height: 400px;
     object-fit: cover;
 }
 
@@ -253,7 +253,6 @@ html {
 
 .formulario {
     padding: 100px 20px;
-    background: #e9eef3;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -262,7 +261,6 @@ html {
 
 
 .formulario-caixa {
-    background: #ffffff;
     padding: 40px;
     width: 900px;
     border-radius: 16px;
@@ -290,14 +288,14 @@ form {
 label {
     font-size: 18px;
     font-weight: 500;
-    color: #333;
+    color: #000000;
 }
 
 input,
 select {
     padding: 12px;
     border-radius: 8px;
-    border: 1px solid #ccc;
+    border: 1px solid #747474;
     font-size: 18px;
     transition: border 0.3s, box-shadow 0.3s;
 }
