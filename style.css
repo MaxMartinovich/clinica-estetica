@@ -322,6 +322,38 @@ button:hover {
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
 }
 
+/*************************** SEÇÃO DO FOOTER ***************************/
+.footer {
+    background: #8a5a3b;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 50px 80px;
+}
+
+.footer-caixa {
+    width: 30%;
+}
+
+.footer-logo {
+    height: 300px;
+    width: auto;
+}
+
+.paragrafo-footer {
+    font-size: 22px;
+}
+
+.copyright {
+    background: #6f452c;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 22px;
+}
 
 /* ================= Celular ou telas menores ================= */
 
@@ -353,7 +385,7 @@ button:hover {
 
     .imagem-profissional {
         width: 200px;
-        height: 400px;
+        height: 350px;
     }
 
     .formulario-caixa {
@@ -366,6 +398,40 @@ button:hover {
 
     .titulo-texto {
         font-size: 32px;
+    }
+
+    /* ===== FOOTER ===== */
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 40px 20px;
+        gap: 20px;
+    }
+
+    .footer-caixa {
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .footer-logo {
+        height: 200px;
+        margin-bottom: 10px;
+    }
+
+    .footer h1 {
+        font-size: 22px;
+    }
+
+    .paragrafo-footer {
+        font-size: 15px;
+        line-height: 1.5;
+    }
+
+    .copyright {
+        font-size: 13px;
+        padding: 10px;
     }
 
 }
