@@ -319,10 +319,19 @@ button:hover {
 
 @media (max-width: 900px) {
 
+    .navegacao {
+        padding: 15px;
+    }
+
     .lista {
-        flex-direction: row;
-        justify-content: space-around;
-        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .links {
+        font-size: 14px;
     }
 
     .grid-profissionais {
@@ -336,7 +345,7 @@ button:hover {
 
     .imagem-profissional {
         width: 200px;
-        height: 200px;
+        height: 400px;
     }
 
     .formulario-caixa {
