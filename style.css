@@ -14,7 +14,7 @@ html {
 /*************************** SEÇÃO DA HEADER E MENU DE NAVEGAÇÃO ***************************/
 .navegacao {
     position: fixed;
-    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(106, 217, 141, 1) 50%, rgba(42, 123, 155, 1) 100%, rgba(42, 123, 155, 1) 100%);
+    background: #8a5a3b;
     width: 100%;
     z-index: 100;
     top: 0;
@@ -43,7 +43,7 @@ html {
     position: absolute;
     bottom: 0;
     left: 0;
-    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(106, 217, 141, 1) 50%, rgba(42, 123, 155, 1) 100%, rgba(42, 123, 155, 1) 100%);
+    background: #29180c;
     transition: width 0.6s ease;
 }
 
@@ -51,60 +51,71 @@ html {
     width: 100%;
 }
 
-/*************************** SEÇÃO DO SOBRE + O INICIO ***************************/
+/*************************** SEÇÃO DO BANNER ***************************/
 
-.principal {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.caixa-imagem-clinica {
-    display: flex;
-    margin: 0 auto;
-}
-
-.imagem-clinica {
-    height: 100%;
+.banner-clinica {
     width: 100%;
-    object-fit: contain;
+    height: 1050px;
+
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("img/clinica-como-ela-e.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
+
+.banner-texto {
+    color: white;
+    max-width: 800px;
+}
+
+.banner-texto h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.banner-texto p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.botao-banner {
+    background: #8a5a3b;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+/*************************** SEÇÃO DO SOBRE + O INICIO ***************************/
 
 .sobre-clinica {
     padding: 80px 20px;
     text-align: center;
-    background: linear-gradient(90deg,
-            rgba(42, 123, 155, 1) 0%,
-            rgba(106, 217, 141, 1) 50%,
-            rgba(42, 123, 155, 1) 100%);
-
+    background: #8a5a3b;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 45px;
-    margin-top: -150px;
 
 }
-
-.logo-clinica {
-    width: 250px;
-    margin-bottom: 20px;
-}
-
-/*************************** SEÇÃO DA PARTE DE SERVIÇOS ***************************/
 
 .caixa-descricao {
-    max-width: 700px;
+    max-width: 1400px;
     margin: 0 auto;
 
     padding: 30px;
 
     border-radius: 20px;
 
-    background: linear-gradient(90deg,
-            rgba(42, 123, 155, 1) 0%,
-            rgba(106, 217, 141, 1) 100%);
+    background: #8a5a3b;
+    color: white;
 
     border: 2px solid #2f2f2f;
 }
@@ -114,7 +125,7 @@ html {
     line-height: 1.7;
 }
 
-
+/*************************** SEÇÃO DA PARTE DE SERVIÇOS ***************************/
 .clinica-servico {
     padding: 80px 20px;
 }
@@ -132,11 +143,7 @@ html {
     font-size: 45px;
     margin-bottom: 50px;
 
-    background: linear-gradient(90deg,
-            rgba(42, 123, 155, 1) 0%,
-            rgba(106, 217, 141, 1) 50%,
-            rgba(42, 123, 155, 1) 100%);
-
+    background: #8a5a3b;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -156,7 +163,6 @@ html {
     border: 1px solid rgb(37, 37, 37);
     overflow: hidden;
     background: white;
-
     transition: transform 0.4s ease, box-shadow 0.4s ease;
 
 }
@@ -212,7 +218,6 @@ html {
     border-radius: 16px;
     padding: 20px;
     text-align: center;
-    border: 1px solid #ddd;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     border: none;
 }
@@ -249,6 +254,8 @@ html {
     background: #e9eef3;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -265,11 +272,7 @@ html {
     text-align: center;
     margin-bottom: 30px;
     font-size: 45px;
-    background: linear-gradient(90deg,
-            rgba(42, 123, 155, 1) 0%,
-            rgba(106, 217, 141, 1) 50%,
-            rgba(42, 123, 155, 1) 100%);
-
+    background: #8a5a3b;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -305,10 +308,7 @@ button {
     border: none;
     border-radius: 8px;
 
-    background: linear-gradient(90deg,
-            rgba(42, 123, 155, 1) 0%,
-            rgba(106, 217, 141, 1) 100%);
-
+    background: #8a5a3b;
     color: white;
     font-size: 16px;
     font-weight: 600;
@@ -321,6 +321,7 @@ button:hover {
     transform: translateY(-2px);
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
 }
+
 
 /* ================= Celular ou telas menores ================= */
 
