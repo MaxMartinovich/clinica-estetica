@@ -2,6 +2,8 @@
 
 # Landing Page Estática com HTML e CSS
 
+![Uploading image.png…]()
+
 ## Descrição
 Landing Page de uma cliníca ficticia, que apresenta os serviços ofertados por ela, desenvolvida em  **HTML e CSS**.  
 
