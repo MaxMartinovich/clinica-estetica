@@ -2,7 +2,8 @@
 
 # Landing Page Estática com HTML e CSS
 
-![Uploading image.png…]()
+<img width="1536" height="1024" alt="clinica-como-ela-e" src="https://github.com/user-attachments/assets/5deca9ad-02e1-4fec-b5b9-6dc918999f75" />
+
 
 ## Descrição
 Landing Page de uma cliníca ficticia, que apresenta os serviços ofertados por ela, desenvolvida em  **HTML e CSS**.  
