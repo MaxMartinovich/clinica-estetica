@@ -18,9 +18,6 @@ Landing Page de uma cliníca ficticia, que apresenta os serviços ofertados por 
 - Interface gráfica amigável
 
 ## Como executar o projeto
+Disponível em: https://maxmartinovich.github.io/clinica-estetica/
 
-1ª - Instale alguma IDE de sua escolha, eu utilizei o VSCode
 
-2ª - Copie o código disponibilizado
-
-3ª - Execute a aplicação!
